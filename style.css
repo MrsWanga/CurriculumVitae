@@ -1,15 +1,20 @@
 body {
     font-family: Arial;
     color: #1C344C;
-    padding: 40px 0;
+    padding: 20px 0;
+    background-color:white;
 }
 h1 {
     text-align: center;
     font-size: 36px;
     color:#F2F2F2;
+    margin-bottom: 50px;
 }
 h2 {
     font-size: 26px;
+}
+h3 {
+    margin-top: 5px;
 }
 span {
     display:flex;
@@ -17,9 +22,10 @@ span {
     text-align: center;
     font-size: 26px;
     color:#91C46C;
+    margin-bottom: 20px;
 }
 img {
-    
+    align-items: center;
     width: 299px;
     height: 400px;
     border: 10px solid #F2F2F2;
@@ -29,16 +35,15 @@ img {
 
 
 section, header {
-    padding: 10px 60px 20px 60px;
-    background-color:#F2F2F2;
+    padding: 10px 60px 10px 60px;
     margin: 0 auto 0 auto;
+    background-color: #F2F2F2;
 }
 address{
     color:#F2F2F2;
 }
 header {
     background-color: #1C344C;
-    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,7 +51,7 @@ header {
 header ul {
     list-style: none;
 }
-header li {
+li {
     margin-bottom: 15px;
 }
 .address-icon {
@@ -81,5 +86,67 @@ header li {
 }
 .hobby li {
     width:33.3%;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.hobby div {
+    margin-left: 20px;
+}
+.hobby p {
+    line-height: 1.5;
+}
+p {
+    line-height: 1.5;
+}
+a {
+    transition: color 0.5s;
+}
+/* unvisited link*/
+a:link {
+    color: #287D7D;
+}
+  
+  /* visited link */
+a:visited {
+    color: #91C46C;
+}
+
+a:hover {
+    color: #C6E070;
+}
+
+.cv-download-link {
+    display:flow-root;
+    justify-content: center;
+    text-align: center;
+    background-color: #287D7D;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.5s;
+    box-shadow: 5px 5px 15px 	#0e1a25;
+}
+.cv-download-link:hover {
+    background-color: #C6E070;
+}
+.cv-download-link:link {
+    color: #F2F2F2;
+}
+.cv-download-link:visited {
+    color: #F2F2F2;
+}
+.cv-download-link:focus {
+    outline: none;
+    background-color: #C6E070;
+}
+.cv-download-link:active {
+    text-decoration: underline;
+}
+
+.mail:link {
+    color: #91C46C;
+}
+.mail:hover {
+    color: #C6E070;
 }
