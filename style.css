@@ -26,8 +26,8 @@ span {
 }
 img {
     align-items: center;
-    width: 299px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border: 10px solid #F2F2F2;
     padding: 10px;
     background-color: #F2F2F2;
@@ -76,8 +76,8 @@ li {
     vertical-align: middle;
 }
 .profile-picture {
-    width: 299px;
-    height:  400px;
+    width: 300px;
+    height:  300px;
 }
 .hobby {
     list-style: none;
