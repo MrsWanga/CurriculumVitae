@@ -38,6 +38,7 @@ address{
 }
 header {
     background-color: #1C344C;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,13 +49,37 @@ header ul {
 header li {
     margin-bottom: 15px;
 }
-header address img {
+.address-icon {
     width: 16px;
     height: 16px;
-    background-color:#C6E070;
+    background-color:#91C46C;
     padding: 10px;
     border: 0px;
     margin-right: 10px;
     vertical-align: middle;
-    border-radius: 20%;
+}
+.circle {
+    border-radius: 50%;
+}
+.hobby-icon {
+    width: 16px;
+    height: 16px;
+    background-color:#91C46C;
+    padding: 10px;
+    border: 0px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.profile-picture {
+    width: 299px;
+    height:  400px;
+}
+.hobby {
+    list-style: none;
+    margin-bottom: 15px;
+    display:flex;
+}
+.hobby li {
+    width:33.3%;
+    margin-bottom: 5px;
 }
